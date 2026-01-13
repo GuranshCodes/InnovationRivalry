@@ -1,6 +1,6 @@
-// Minimal interactions: menu toggle + carousel
+
 document.addEventListener('DOMContentLoaded', function() {
-  // Mobile menu toggle
+
   const menuToggle = document.getElementById('menuToggle');
   const navList = document.getElementById('navList');
   if (menuToggle) {
@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Simple auto-rotating carousel
   const carousel = document.getElementById('carousel');
   if (carousel) {
     const imgs = Array.from(carousel.querySelectorAll('img'));

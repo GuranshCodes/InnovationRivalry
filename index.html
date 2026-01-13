@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Apple vs Samsung — Why Apple Wins</title>
+  <title>Innovation Rivalry</title>
   <meta name="description" content="A concise, Apple-inspired presentation arguing why Apple is better than Samsung — design, ecosystem, privacy, resale value and more." />
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,10 +12,10 @@
 <body>
   <header class="site-header">
     <nav class="nav container">
-      <div class="brand">
-        <span class="apple-like-logo" aria-hidden="true"></span>
-        <span class="brand-title">Innovation Rivalry</span>
-      </div>
+      <a href="#hero" class="brand">
+        <img src="download.png" alt="Innovation Rivalry logo" height="50px" width="50px">
+        <h1>Innovation Rivalry</h1>
+      </a>
       <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="navList">Menu</button>
       <ul id="navList" class="nav-list">
         <li><a href="#hero">Home</a></li>
@@ -38,9 +38,9 @@
         </div>
         <div class="hero-media">
           <div class="carousel" id="carousel">
-            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1600&q=80&auto=format&fit=crop" alt="Sleek smartphone on white background">
-            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1600&q=80&auto=format&fit=crop" alt="Stylized devices on table">
-            <img src="https://images.unsplash.com/photo-1512499617640-c2f9992b16d3?w=1600&q=80&auto=format&fit=crop" alt="Person using mobile devices">
+            <img src="download (1).jfif" alt="Apple device showcase">
+            <img src="download (2).jfif" alt="Innovation technology">
+            <img src="download (3).jfif" alt="Device comparison">
           </div>
         </div>
       </div>
@@ -48,28 +48,42 @@
 
     <section id="design" class="container section">
       <h2>Design & User Experience</h2>
-      <p>Apple's design approach emphasizes simplicity, premium materials, and a recognizable aesthetic. From the early Apple I to the modern iPhone, Apple has prioritized controlled simplicity that is comfortable for a wide range of users.</p>
-      <p class="source">Key points:
-        <ul>
-          <li>Premium materials: glass, aluminum, titanium</li>
-          <li>Clean, distinctive look: smooth corners, edge-to-edge displays</li>
-          <li>Ease-of-use prioritized over extensive customization</li>
-        </ul>
-      </p>
+      <p class="intro-text">Apple's design approach emphasizes simplicity, premium materials, and a recognizable aesthetic. From the early Apple I to the modern iPhone, Apple has prioritized controlled simplicity that is comfortable for a wide range of users.</p>
 
-      <div class="feature-cards">
-        <article class="card">
+      <div class="design-highlights">
+        <div class="highlight-item">
+          <span class="highlight-icon">✨</span>
+          <h4>Premium Materials</h4>
+          <p>Glass, aluminum, titanium</p>
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-icon">⬜</span>
+          <h4>Clean Design</h4>
+          <p>Smooth corners, edge-to-edge displays</p>
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-icon">👆</span>
+          <h4>User-Friendly</h4>
+          <p>Simplicity over customization</p>
+        </div>
+      </div>
+
+      <div class="design-cards">
+        <div class="design-card">
+          <div class="card-icon">🎨</div>
           <h3>Recognizable Design</h3>
-          <p>The iPhone's visual language is intentionally simple and consistent, making it instantly recognizable.</p>
-        </article>
-        <article class="card">
+          <p>The iPhone's visual language is intentionally simple and consistent, making it instantly recognizable to millions worldwide.</p>
+        </div>
+        <div class="design-card">
+          <div class="card-icon">🏗️</div>
           <h3>Build Quality</h3>
-          <p>Apple products are built to last, helping with long-term resale value and user satisfaction.</p>
-        </article>
-        <article class="card">
+          <p>Apple products are engineered to last, helping with long-term resale value, durability, and user satisfaction over years of use.</p>
+        </div>
+        <div class="design-card">
+          <div class="card-icon">👤</div>
           <h3>User-Friendly</h3>
-          <p>iOS is designed for discoverability and ease-of-use, which matters for everyday consumers.</p>
-        </article>
+          <p>iOS is designed for discoverability and intuitive use, which matters most for everyday consumers of all technical levels.</p>
+        </div>
       </div>
     </section>
 
@@ -77,34 +91,205 @@
       <h2>Seamless Ecosystem</h2>
       <p>Apple’s strongest advantage is often its ecosystem. Apple devices work together in ways Samsung's ecosystem struggles to match. As noted in Android Authority and Sinch analyses, this is a major differentiator for many users.</p>
 
-      <div class="two-col">
-        <div>
+      <div class="ecosystem-cards">
+        <div class="ecosystem-card">
+          <div class="card-icon">💬</div>
           <h3>Continuity & iMessage</h3>
-          <p>Users can start a message on an iPhone and continue on a Mac or iPad without manual syncing. iMessage provides encrypted Wi‑Fi messaging, rich media, reactions and more — features not matched by standard SMS/RCS workflows on many Android devices.</p>
+          <p>Start a message on your iPhone and continue seamlessly on your Mac or iPad without manual syncing. iMessage provides encrypted Wi‑Fi messaging, rich media reactions, and advanced features — capabilities unmatched by standard SMS/RCS workflows on many Android devices.</p>
+          <ul class="ecosystem-features">
+            <li>Encrypted messaging</li>
+            <li>Rich media support</li>
+            <li>Cross-device sync</li>
+          </ul>
         </div>
-        <div>
+        <div class="ecosystem-card">
+          <div class="card-icon">🔗</div>
           <h3>Apple ID & Device Integration</h3>
-          <p>One Apple ID ties iCloud, FaceTime, iMessage, and device backups together. Features like calling and messaging without a phone number (over Wi‑Fi) add convenience and reliability for everyday communication.</p>
+          <p>One Apple ID ties iCloud, FaceTime, iMessage, and device backups together seamlessly. Features like calling and messaging without a phone number (over Wi‑Fi) add convenience and reliability for everyday communication across all devices.</p>
+          <ul class="ecosystem-features">
+            <li>Unified account</li>
+            <li>Cloud sync</li>
+            <li>Family sharing</li>
+          </ul>
         </div>
       </div>
 
-      <blockquote class="blockquote">
-        "One user can text on their iPhone, seamlessly continue it on their Mac, and receive notifications across their Apple Watch and iPad, without manual syncing or toggling a setting." — Sinch
-      </blockquote>
+      <div class="ecosystem-quote">
+        <blockquote>"One user can text on their iPhone, seamlessly continue it on their Mac, and receive notifications across their Apple Watch and iPad, without manual syncing or toggling a setting."</blockquote>
+        <p class="quote-source">— Sinch</p>
+      </div>
+
+      <h3>Ecosystem Comparison: 2026 Product Lines</h3>
+      <div class="ecosystem-comparison">
+        <div class="ecosystem-column">
+          <h4>🍎 Apple Products</h4>
+          
+          <div class="ecosystem-category">
+            <strong>Smartphones</strong>
+            <ul class="ecosystem-products">
+              <li>iPhone 16 Pro</li>
+              <li>iPhone 16 Pro Max</li>
+              <li>iPhone 17</li>
+              <li>iPhone 17 Pro</li>
+              <li>iPhone 17 Pro Max</li>
+              <li>Foldable iPhone (rumored late 2026)</li>
+            </ul>
+          </div>
+
+          <div class="ecosystem-category">
+            <strong>Tablets</strong>
+            <ul class="ecosystem-products">
+              <li>iPad Pro</li>
+              <li>iPad Air</li>
+              <li>iPad (standard)</li>
+              <li>iPad Mini</li>
+            </ul>
+          </div>
+
+          <div class="ecosystem-category">
+            <strong>Computers</strong>
+            <ul class="ecosystem-products">
+              <li>MacBook Air (M5)</li>
+              <li>MacBook Pro 14" & 16" (M5/M5 Pro/Max, OLED)</li>
+              <li>Mac Studio (M5)</li>
+              <li>Mac mini (M5/M5 Pro)</li>
+            </ul>
+          </div>
+
+          <div class="ecosystem-category">
+            <strong>Wearables</strong>
+            <ul class="ecosystem-products">
+              <li>Apple Watch Series 10+</li>
+              <li>Apple Watch Ultra</li>
+              <li>Apple Watch SE</li>
+            </ul>
+          </div>
+
+          <div class="ecosystem-category">
+            <strong>Audio & Accessories</strong>
+            <ul class="ecosystem-products">
+              <li>AirPods Pro</li>
+              <li>AirPods (standard)</li>
+              <li>AirPods Max</li>
+              <li>Apple Pencil</li>
+              <li>Magic Keyboard / Mouse / Trackpad</li>
+            </ul>
+          </div>
+
+          <div class="ecosystem-category">
+            <strong>AR/VR & Spatial Computing</strong>
+            <ul class="ecosystem-products">
+              <li>Apple Vision Pro</li>
+              <li>Future AR glasses (rumored)</li>
+            </ul>
+          </div>
+
+          <div class="ecosystem-category">
+            <strong>Smart Home & Services</strong>
+            <ul class="ecosystem-products">
+              <li>HomePod / HomePod mini</li>
+              <li>Smart home displays (rumored 2026)</li>
+              <li>iCloud, Apple Music, Apple TV+</li>
+              <li>Apple Arcade, Apple Fitness+, Apple Pay</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="ecosystem-column">
+          <h4>📱 Samsung Products</h4>
+          
+          <div class="ecosystem-category">
+            <strong>Smartphones</strong>
+            <ul class="ecosystem-products">
+              <li>Galaxy S25 Edge (2025/2026)</li>
+              <li>Galaxy Z Fold7</li>
+              <li>Galaxy Z Flip7 / Z Flip7 FE</li>
+              <li>Galaxy Z TriFold (Q1 2026)</li>
+            </ul>
+          </div>
+
+          <div class="ecosystem-category">
+            <strong>Tablets</strong>
+            <ul class="ecosystem-products">
+              <li>Galaxy Tab S10 series (2025-26)</li>
+              <li>Galaxy Tab A series</li>
+            </ul>
+          </div>
+
+          <div class="ecosystem-category">
+            <strong>Computers</strong>
+            <ul class="ecosystem-products">
+              <li>Galaxy Book 6</li>
+              <li>Galaxy Book 6 Pro</li>
+              <li>Galaxy Book 6 Ultra</li>
+            </ul>
+          </div>
+
+          <div class="ecosystem-category">
+            <strong>Wearables</strong>
+            <ul class="ecosystem-products">
+              <li>Galaxy Watch9</li>
+              <li>Galaxy Watch Ultra 2 (anticipated)</li>
+              <li>Galaxy Ring</li>
+            </ul>
+          </div>
+
+          <div class="ecosystem-category">
+            <strong>Audio & Accessories</strong>
+            <ul class="ecosystem-products">
+              <li>Galaxy Buds (various models)</li>
+              <li>Samsung Smart Monitors</li>
+              <li>Odyssey Gaming Monitors</li>
+              <li>Freestyle+ Projectors</li>
+              <li>Music Studio Speakers</li>
+            </ul>
+          </div>
+
+          <div class="ecosystem-category">
+            <strong>AR/VR & Spatial Computing</strong>
+            <ul class="ecosystem-products">
+              <li>Galaxy XR headset (Android XR)</li>
+            </ul>
+          </div>
+
+          <div class="ecosystem-category">
+            <strong>Services (Android-based)</strong>
+            <ul class="ecosystem-products">
+              <li>Samsung Cloud (limited integration)</li>
+              <li>Samsung Music / Health / Wallet</li>
+              <li>Samsung DeX</li>
+              <li>Google Play Services (dependency)</li>
+              <li>Gaming Hub</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="privacy" class="container section">
       <h2>Privacy & Long-Term Value</h2>
-      <p>Apple prioritizes user privacy through tight integration between hardware and software and a business model that emphasizes hardware sales rather than large-scale data collection. Studies and reporting show Apple retains value and strong customer loyalty because of these priorities.</p>
+      <p class="intro-text">Apple prioritizes user privacy through tight integration between hardware and software and a business model that emphasizes hardware sales rather than large-scale data collection. Studies and reporting show Apple retains value and strong customer loyalty because of these priorities.</p>
 
-      <div class="two-col">
-        <div>
-          <h3>Privacy</h3>
-          <p>Apple builds its own operating systems and services with a focus on end-to-end encryption for things like iMessage and FaceTime. This design helps protect user data and enhances trust.</p>
+      <div class="privacy-cards">
+        <div class="privacy-card">
+          <div class="card-icon">🔒</div>
+          <h3>Privacy First</h3>
+          <p>Apple builds its own operating systems and services with a focus on end-to-end encryption for things like iMessage and FaceTime. This design helps protect user data and enhances trust with users.</p>
+          <ul class="privacy-features">
+            <li>End-to-end encryption</li>
+            <li>Hardware-software integration</li>
+            <li>Minimal data collection</li>
+          </ul>
         </div>
-        <div>
-          <h3>Resale Value</h3>
+        <div class="privacy-card">
+          <div class="card-icon">📈</div>
+          <h3>Lasting Value</h3>
           <p>Apple devices tend to hold their value longer than many Android competitors. Fewer replacements and sustained demand contribute to higher resale prices and demonstrate perceived long-term value.</p>
+          <ul class="privacy-features">
+            <li>Higher resale value</li>
+            <li>Sustained demand</li>
+            <li>Better investment</li>
+          </ul>
         </div>
       </div>
 
@@ -113,39 +298,130 @@
 
     <section id="conclusion" class="container section alt">
       <h2>Conclusion</h2>
-      <p>Both Apple and Samsung produce excellent hardware. However, Apple’s controlled simplicity, consistent design language, seamless ecosystem, communication features like iMessage, strong privacy approach, and higher long-term value make it the better choice for many everyday users.</p>
+      <div class="conclusion-content">
+        <p class="conclusion-text">Both Apple and Samsung produce excellent hardware. However, Apple's controlled simplicity, consistent design language, seamless ecosystem, communication features like iMessage, strong privacy approach, and higher long-term value make it the better choice for many everyday users.</p>
+        
+        <div class="conclusion-highlights">
+          <div class="highlight">
+            <span class="highlight-label">Design</span>
+            <span class="highlight-check">✓</span>
+          </div>
+          <div class="highlight">
+            <span class="highlight-label">Ecosystem</span>
+            <span class="highlight-check">✓</span>
+          </div>
+          <div class="highlight">
+            <span class="highlight-label">Privacy</span>
+            <span class="highlight-check">✓</span>
+          </div>
+          <div class="highlight">
+            <span class="highlight-label">Value</span>
+            <span class="highlight-check">✓</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <p class="cta-row">
-        <a class="cta" href="#hero">Back to top</a>
-        <a class="cta ghost" href="README.md">How to deploy</a>
-      </p>
+    <section id="comparison" class="container section alt">
+      <h2>Comparison: Why Samsung Lags Behind</h2>
+      <p class="intro-text">While Samsung produces quality hardware, several key differences highlight why Apple remains the better choice for most users.</p>
+
+      <div class="comparison-cards">
+        <div class="comparison-card">
+          <div class="comparison-icon">❌</div>
+          <h3>Fragmented Ecosystem</h3>
+          <p>Samsung devices don't integrate as seamlessly. Different models run different versions of Android, creating inconsistency and compatibility issues across the product line.</p>
+          <p class="comparison-vs"><strong>Apple:</strong> Unified experience across all devices</p>
+        </div>
+        <div class="comparison-card">
+          <div class="comparison-icon">❌</div>
+          <h3>Limited Integration</h3>
+          <p>Samsung's ecosystem lacks the cross-device continuity Apple offers. Switching between devices requires manual setup and doesn't sync as smoothly.</p>
+          <p class="comparison-vs"><strong>Apple:</strong> Seamless handoff and continuity features</p>
+        </div>
+        <div class="comparison-card">
+          <div class="comparison-icon">❌</div>
+          <h3>Weaker Privacy Standards</h3>
+          <p>Samsung relies on Google's services and data collection models. Multiple third-party integrations mean less control over personal data compared to Apple's integrated approach.</p>
+          <p class="comparison-vs"><strong>Apple:</strong> Hardware-software integration for privacy</p>
+        </div>
+        <div class="comparison-card">
+          <div class="comparison-icon">❌</div>
+          <h3>Rapid Value Decline</h3>
+          <p>Samsung devices depreciate faster. The market for used Samsung phones is weaker, affecting long-term investment value significantly.</p>
+          <p class="comparison-vs"><strong>Apple:</strong> Maintains resale value longer</p>
+        </div>
+        <div class="comparison-card">
+          <div class="comparison-icon">❌</div>
+          <h3>Software Support Gaps</h3>
+          <p>Samsung's Android devices receive inconsistent and shorter software update cycles compared to Apple's multi-year support commitment.</p>
+          <p class="comparison-vs"><strong>Apple:</strong> 5+ years of iOS updates</p>
+        </div>
+        <div class="comparison-card">
+          <div class="comparison-icon">❌</div>
+          <h3>Bloatware & Customization Overload</h3>
+          <p>Samsung devices come loaded with pre-installed apps and excessive customization options, making the experience cluttered and confusing for average users.</p>
+          <p class="comparison-vs"><strong>Apple:</strong> Clean, simple interface</p>
+        </div>
+      </div>
     </section>
 
     <section id="bibliography" class="container section">
       <h2>Bibliography & Links</h2>
       <ul class="bib-list">
-        <li><a href="https://www.androidauthority.com/iphone-vs-samsung-3266172/" target="_blank" rel="noopener">Android Authority — iPhone vs. Samsung</a></li>
-        <li><a href="https://www.apple.com/privacy/" target="_blank" rel="noopener">Apple — Privacy</a></li>
-        <li><a href="https://www.britannica.com/money/Apple-Inc" target="_blank" rel="noopener">Encyclopaedia Britannica — Apple Inc.</a></li>
-        <li><a href="https://www.nector.io/blog/power-of-apple-customer-loyalty" target="_blank" rel="noopener">Nector — Power of Apple Customer Loyalty</a></li>
-        <li><a href="https://www.phonearena.com/news/Samsung-Galaxy-S-series-history-evolution_id78382" target="_blank" rel="noopener">PhoneArena — Galaxy S series history</a></li>
-        <li><a href="https://sinch.com/blog/rcs-vs-imessage/" target="_blank" rel="noopener">Sinch — RCS vs iMessage</a></li>
+        <li><a href="https://www.androidauthority.com/iphone-vs-samsung-3266172/" target="_blank" rel="noopener"><span class="bib-icon">📱</span>Android Authority — iPhone vs. Samsung</a></li>
+        <li><a href="https://www.apple.com/privacy/" target="_blank" rel="noopener"><span class="bib-icon">🔐</span>Apple — Privacy</a></li>
+        <li><a href="https://www.britannica.com/money/Apple-Inc" target="_blank" rel="noopener"><span class="bib-icon">📖</span>Encyclopaedia Britannica — Apple Inc.</a></li>
+        <li><a href="https://www.nector.io/blog/power-of-apple-customer-loyalty" target="_blank" rel="noopener"><span class="bib-icon">💖</span>Nector — Power of Apple Customer Loyalty</a></li>
+        <li><a href="https://www.phonearena.com/news/Samsung-Galaxy-S-series-history-evolution_id78382" target="_blank" rel="noopener"><span class="bib-icon">📸</span>PhoneArena — Galaxy S series history</a></li>
+        <li><a href="https://sinch.com/blog/rcs-vs-imessage/" target="_blank" rel="noopener"><span class="bib-icon">💬</span>Sinch — RCS vs iMessage</a></li>
       </ul>
 
       <h3>Glossary</h3>
-      <dl class="glossary">
-        <dt>Apple Ecosystem</dt><dd>Group of products and services (iPhone, iPad, Mac, Apple Watch) that work together.</dd>
-        <dt>Apple ID</dt><dd>A free account that syncs data across Apple services.</dd>
-        <dt>iMessage</dt><dd>Apple's internet-based messaging service with encryption and advanced features.</dd>
-        <dt>Resale Value</dt><dd>The amount a device can be sold for after use.</dd>
-        <dt>Wi-Fi Messaging</dt><dd>Sending messages over an internet connection rather than SMS.</dd>
-      </dl>
+      <div class="glossary">
+        <div class="glossary-item">
+          <dt><span class="glossary-icon">🌐</span>Apple Ecosystem</dt><dd>Group of products and services (iPhone, iPad, Mac, Apple Watch) that work together seamlessly.</dd>
+        </div>
+        <div class="glossary-item">
+          <dt><span class="glossary-icon">👤</span>Apple ID</dt><dd>A free account that syncs data across Apple services and devices.</dd>
+        </div>
+        <div class="glossary-item">
+          <dt><span class="glossary-icon">💬</span>iMessage</dt><dd>Apple's internet-based messaging service with encryption and advanced features like reactions and rich media.</dd>
+        </div>
+        <div class="glossary-item">
+          <dt><span class="glossary-icon">📹</span>FaceTime</dt><dd>Apple's video and audio calling service with end-to-end encryption.</dd>
+        </div>
+        <div class="glossary-item">
+          <dt><span class="glossary-icon">🔄</span>Continuity</dt><dd>Apple feature that allows seamless handoff of tasks between devices without manual syncing.</dd>
+        </div>
+        <div class="glossary-item">
+          <dt><span class="glossary-icon">🔒</span>End-to-End Encryption</dt><dd>Security method where only sender and recipient can read messages, not even the service provider.</dd>
+        </div>
+        <div class="glossary-item">
+          <dt><span class="glossary-icon">💰</span>Resale Value</dt><dd>The amount a device can be sold for after use, typically higher for Apple products.</dd>
+        </div>
+        <div class="glossary-item">
+          <dt><span class="glossary-icon">📡</span>Wi-Fi Messaging</dt><dd>Sending messages over an internet connection rather than traditional SMS.</dd>
+        </div>
+        <div class="glossary-item">
+          <dt><span class="glossary-icon">📨</span>RCS</dt><dd>Rich Communication Services; an advanced messaging standard that enhances SMS capabilities.</dd>
+        </div>
+        <div class="glossary-item">
+          <dt><span class="glossary-icon">🤖</span>Samsung Ecosystem</dt><dd>Range of Samsung products including phones, tablets, and wearables that integrate with Android.</dd>
+        </div>
+        <div class="glossary-item">
+          <dt><span class="glossary-icon">✨</span>Premium Materials</dt><dd>High-quality construction materials like glass, aluminum, and titanium used in device manufacturing.</dd>
+        </div>
+        <div class="glossary-item">
+          <dt><span class="glossary-icon">🎯</span>User Experience (UX)</dt><dd>The overall experience users have when interacting with a device or app, including ease of use and design.</dd>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>Built for illustrative purposes. Replace images with licensed assets for publication. © Innovation Rivalry</p>
+      <p>© Innovation Rivalry 2026 by Guransh Dhaliwal</p>
     </div>
   </footer>
 
